@@ -30,7 +30,7 @@ function App() {
   }, [])
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/:mediaType/:id' element={<Deatils />} />
@@ -38,7 +38,7 @@ function App() {
         <Route path='/explore/:mediaType' element={<Explore />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
-      <Footer />
+      {/* <Footer /> */}
     </>
   )
 }
