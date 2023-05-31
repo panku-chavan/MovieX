@@ -2,7 +2,9 @@ import React from 'react'
 import "./style.scss"
 const Explore = () => {
     return (
-        <div>Explore</div>
+        <div>
+            <h1>Pankaj</h1>
+        </div>
     )
 }
 
