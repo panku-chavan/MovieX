@@ -2,7 +2,9 @@ import React from 'react'
 import "./style.scss"
 const Deatils = () => {
     return (
-        <div>Deatils</div>
+        <div>
+
+        </div>
     )
 }
 
