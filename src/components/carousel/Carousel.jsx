@@ -26,7 +26,7 @@ const Carousel = ({ data, loading }) => {
         const scrollAmount =
             direction === "left"
                 ? container.scrollLeft - (container.offsetWidth + 20)
-                : container.scrollLeft - (container.offsetWidth + 20);
+                : container.scrollLeft + (container.offsetWidth + 20);
 
         container.scrollTo({
             left: scrollAmount,
