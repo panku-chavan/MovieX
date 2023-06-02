@@ -1,6 +1,7 @@
 import React from "react";
 import {
     FaFacebookF,
+    FaGithub,
     FaInstagram,
     FaTwitter,
     FaLinkedin,
@@ -9,6 +10,7 @@ import {
 import ContentWrapper from "../contentWrapper/ContentWrapper";
 
 import "./style.scss";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -30,18 +32,12 @@ const Footer = () => {
                     esse cillum dolore eu fugiat nulla pariatur.
                 </div>
                 <div className="socialIcons">
-                    <span className="icon">
-                        <FaFacebookF />
-                    </span>
-                    <span className="icon">
-                        <FaInstagram />
-                    </span>
-                    <span className="icon">
-                        <FaTwitter />
-                    </span>
-                    <span className="icon">
-                        <FaLinkedin />
-                    </span>
+
+                    <Link className="icon" target="_blank" to={"https://www.facebook.com/pankajsubhashchavan/"}><FaFacebookF /></Link>
+                    <Link className="icon" target="_blank" to={"https://github.com/panku-chavan/"}><FaGithub /></Link>
+                    <Link className="icon" target="_blank" to={"https://www.instagram.com/panku_chavan/"}><FaInstagram /></Link>
+                    <Link className="icon" target="_blank" to={"https://www.linkedin.com/in/pankaj-chavan-9ba6681ba/"}><FaLinkedin /></Link>
+                    <Link className="icon" target="_blank" to={"https://twitter.com/panku_chavan"}><FaTwitter /></Link>
                 </div>
             </ContentWrapper>
         </footer>

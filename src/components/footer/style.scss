@@ -59,6 +59,7 @@
             justify-content: center;
             cursor: pointer;
             transition: all ease 0.3s;
+            color: white;
             &:hover {
                 box-shadow: 0 0 0.625em var(--pink);
                 color: var(--pink);
