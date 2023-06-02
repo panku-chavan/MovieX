@@ -65,7 +65,7 @@ const DetailsBanner = ({ video, crew }) => {
                                         <Genres data={_genres} />
 
                                         <div className="row">
-                                            <RatingCircle rating={data?.vote_average.toFixed()} />
+                                            <RatingCircle rating={data?.vote_average?.toFixed()} />
                                             <div className="playbtn" onClick={() => {
                                                 setShow(true)
                                                 setVideoId(video?.key)

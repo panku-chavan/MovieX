@@ -18,7 +18,7 @@ function App() {
 
   const dispatch = useDispatch();
   const { url } = useSelector((state) => state.home)
-  console.log(url)
+  // console.log(url)
   const fetchApiConfig = () => {
     fetchDataFromApi('/configuration').then((res) => {
 
@@ -29,7 +29,7 @@ function App() {
       }
 
       dispatch(getApiConfiguration(url))
-      console.log(res)
+      // console.log(res)
     })
   }
   useEffect(() => {
