@@ -31,3 +31,4 @@ https://www.themoviedb.org/
 ## Tools and Libraries
 
 #### vite
+#### React
