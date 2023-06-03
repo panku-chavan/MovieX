@@ -32,3 +32,15 @@ https://www.themoviedb.org/
 
 #### vite
 #### React
+#### redux-toolkit
+#### media-query
+#### react-icons
+#### react-select
+#### react-redux
+#### react-router-dom
+#### react-player
+#### react-circular-progressbar
+#### react-infinite-scroll-component
+#### react-lazy-load-image-component
+#### dayjs
+#### axios
