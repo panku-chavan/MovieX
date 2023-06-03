@@ -12,6 +12,11 @@ import Explore from './pages/explore/Explore'
 import PageNotFound from './pages/404/PageNotFound'
 import Header from './components/header/Header'
 import Footer from './components/footer/Footer'
+import TermsOfuse from './pages/footer/TermsOfuse'
+import PrivacyPolicy from './pages/footer/PrivacyPolicy'
+import AboutUs from './pages/footer/AboutUs'
+import Blog from './pages/footer/Blog'
+import Faq from './pages/footer/Faq'
 
 
 function App() {
@@ -68,6 +73,11 @@ function App() {
         <Route path='/:mediaType/:id' element={<Deatils />} />
         <Route path='/search/:query' element={<SearchResult />} />
         <Route path='/explore/:mediaType' element={<Explore />} />
+        <Route path='/termsofuse' element={<TermsOfuse />} />
+        <Route path='/privacy' element={<PrivacyPolicy />} />
+        <Route path='/aboutus' element={<AboutUs />} />
+        <Route path='/blog' element={<Blog />} />
+        <Route path='/faq' element={<Faq />} />
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />

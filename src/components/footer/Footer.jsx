@@ -19,19 +19,18 @@ const Footer = () => {
         <footer className="footer">
             <ContentWrapper>
                 <ul className="menuItems">
-                    <li className="menuItem">Terms Of Use</li>
-                    <li className="menuItem">Privacy-Policy</li>
-                    <li className="menuItem">About</li>
-                    <li className="menuItem">Blog</li>
-                    <li className="menuItem">FAQ</li>
+                    <li className="menuItem" onClick={() => navigate("/termsofuse")}>Terms Of Use</li>
+                    <li className="menuItem" onClick={() => navigate("/privacy")}>Privacy Policy</li>
+                    <li className="menuItem" onClick={() => navigate("/aboutus")}>About Us</li>
+                    {/* <li className="menuItem" onClick={() => navigate("/blog")}>Blog</li> */}
+                    {/* <li className="menuItem" onClick={() => navigate("/faq")}>FAQ</li> */}
+
                 </ul>
                 <div className="infoText">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-                    minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                    pariatur.
+                    Displaying popular movies: When you visit the home page, the app sends
+                    a request to the TMDB API to fetch a list of popular movies. The
+                    response is then used to display the movie titles and overviews on the
+                    page.
                 </div>
                 <div className="socialIcons">
                     <Link
@@ -71,7 +70,9 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className="menuItems" style={{ marginTop: "30px" }}>
-                    <span className="menuItem" onClick={() => navigate("/")}>&copy;2023 panku-chavan</span>
+                    <span className="menuItem" onClick={() => navigate("/")}>
+                        &copy;2023 panku-chavan
+                    </span>
                 </div>
             </ContentWrapper>
         </footer>

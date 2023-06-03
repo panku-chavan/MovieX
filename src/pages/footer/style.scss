@@ -1,0 +1,82 @@
+.div1{
+    padding-top: 100px;
+    text-align: center;
+    .title{
+        opacity: 0.8;
+        color: white;
+        font-weight: bolder;
+        font-size:40px;
+        text-align: center;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    
+}
+.title2{
+    padding-top: 10px;
+    opacity: 0.8;
+    color: white;
+    font-weight: bolder;
+    font-size:30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.div2{
+    opacity: 0.6;
+    padding-bottom: 50px;
+    
+    .paragraph{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style:italic;
+        color: white;
+        padding-top: 20px;
+    }
+    
+}
+.div3{
+    text-align: center;
+    opacity: 0.6;
+    padding-bottom: 10px;
+    
+    .paragraph{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style:italic;
+        color: white;
+        padding-top: 20px;
+    }
+    
+}
+.name{
+    color: white;
+    padding-top: 20px;
+    font-size: large;
+}
+.socialIcons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding-bottom: 20px;
+    
+    .icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        background-color: var(--black);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        transition: all ease 0.3s;
+        color: white;
+        &:hover {
+            box-shadow: 0 0 0.500em var(--pink);
+            color: var(--pink);
+        }
+    }
+}
+.star{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: white;
+    opacity: 0.6;
+    
+}
