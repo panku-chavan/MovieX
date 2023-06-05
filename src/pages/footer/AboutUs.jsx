@@ -7,6 +7,7 @@ import {
     FaInstagram,
     FaTwitter,
     FaLinkedin,
+    FaRegStar
 } from "react-icons/fa";
 
 import { BiGitBranch } from "react-icons/bi"
@@ -69,7 +70,9 @@ const AboutUs = () => {
                 </Link>
             </div>
             <div className="socialIcons">
-                <p className='star'>Giv me a star</p>
+                <p className='star'>Give me a star<span style={{ marginLeft: "5px" }}>
+                    <FaRegStar /></span></p>
+
                 <Link className='icon' target='_blank' to={"https://github.com/panku-chavan/MovieX"} ><BiGitBranch /></Link>
             </div>
         </ContentWrapper>
