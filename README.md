@@ -19,6 +19,7 @@ Favorite lists: Users could have the option to create and manage their favorite 
 
 Recommendations: Using the TMDB API, you can implement a recommendation system based on user preferences and movie ratings. This can provide personalized movie recommendations to users based on their previous interactions with the app.
 
+
 User reviews and ratings: You can allow users to leave reviews and ratings for movies they have watched. This can create a community-driven aspect to the app, where users can share their opinions and help others make informed decisions.
 
 ## Information Collect
@@ -26,3 +27,20 @@ I do not directly collect any personal information from our users. Any informati
 
 ### Used or fetched TMDB database.
 https://www.themoviedb.org/
+
+## Tools and Libraries
+
+#### vite
+#### React
+#### redux-toolkit
+#### media-query
+#### react-icons
+#### react-select
+#### react-redux
+#### react-router-dom
+#### react-player
+#### react-circular-progressbar
+#### react-infinite-scroll-component
+#### react-lazy-load-image-component
+#### dayjs
+#### axios
