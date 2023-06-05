@@ -5,6 +5,10 @@ import { fetchDataFromApi } from './utils/api'
 import { useDispatch, useSelector } from 'react-redux'
 import { getApiConfiguration, getGenres } from './redux/homeSlice';
 
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 import Home from './pages/home/Home'
 import Deatils from './pages/details/Deatils'
 import SearchResult from './pages/searchResult/SearchResult'
@@ -81,6 +85,7 @@ function App() {
         <Route path='*' element={<PageNotFound />} />
       </Routes>
       <Footer />
+      <ToastContainer />
     </>
   )
 }

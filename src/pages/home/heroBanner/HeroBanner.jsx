@@ -4,6 +4,8 @@ import { useNavigate } from "react-router-dom";
 import useFetch from "../../../hooks/useFetch";
 import { useSelector } from "react-redux";
 
+import { toast } from 'react-toastify';
+
 import Img from "../../../components/lazyLoadImage/Img";
 import ContentWrapper from "../../../components/contentWrapper/ContentWrapper";
 
@@ -26,10 +28,15 @@ const HeroBanner = () => {
             navigate(`/search/${query}`)
         }
         //navigate(`/search/${query}`)
+        toast.error("Please enter some keywords to search.")
+
     };
     const searchHandler = () => {
         if (query.length > 0) {
             navigate(`search/${query}`)
+        } else {
+            toast.error("Please enter some keywords to search.")
+            //alert("please enter some keyword to search.")
         }
     }
     return (
