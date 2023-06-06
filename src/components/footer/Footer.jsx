@@ -69,7 +69,7 @@ const Footer = () => {
                         <FaTwitter />
                     </Link>
                 </div>
-                <div className="menuItems" style={{ marginTop: "30px" }}>
+                <div className="menuItems" style={{ marginTop: "20px" }}>
                     <span className="menuItem" onClick={() => navigate("/")}>
                         &copy;2023 panku-chavan
                     </span>
