@@ -29,7 +29,6 @@ const HeroBanner = () => {
         }
         //navigate(`/search/${query}`)
         //toast.error("Please enter some keywords to search.")
-
     };
     const searchHandler = () => {
         if (query.length > 0) {
